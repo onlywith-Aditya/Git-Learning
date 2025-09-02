@@ -1,3 +1,16 @@
+<<<<<<< HEAD
 Add Another marketing message section.
 
 Add Second Note.
+=======
+I am a fix which will be used to fix the bug.
+
+
+Fix another bug.    
+
+One more bug is detected and fixed.
+
+Forth bug fixed.
+
+Fifth bug fixed.
+>>>>>>> bug-fix
