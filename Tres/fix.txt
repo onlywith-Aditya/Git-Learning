@@ -13,7 +13,12 @@ One more bug is detected and fixed.
 Forth bug fixed.
 
 Fifth bug fixed.
+<<<<<<< HEAD
 >>>>>>> bug-fix
 
 
 2025 is coming.
+=======
+
+2024 is coming
+>>>>>>> bug-fix
