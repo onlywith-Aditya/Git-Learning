@@ -6,3 +6,5 @@ Fix another bug.
 One more bug is detected and fixed.
 
 Forth bug fixed.
+
+Fifth bug fixed.
