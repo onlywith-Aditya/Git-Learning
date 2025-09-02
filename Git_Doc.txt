@@ -1,0 +1,125 @@
+1. Git version
+    => git --version
+--------------------------------|
+2. Check current Directory
+    => pwd
+--------------------------------|
+3. Check List of sub-directories
+    => ls
+
+    => ls -la 
+       => Hidden folder 
+       => Listed Folder
+--------------------------------|  
+4. Config Setting
+    => git config --global user.email "you@email.com"
+    => git config --global user.name "user name"
+--------------------------------|  
+5. Check Config Setting
+    => git config --list
+--------------------------------|
+6. Initialize Directory/folder  
+    => git init
+--------------------------------|
+7. Check Status of Directory
+    => git Status
+-------------------------------------|
+
+    |--------------------------------|
+    |## Process to make Repo         |
+    |1. Check Status                 |
+    |2. Init                         |
+    |--------------------------------|
+    |## Flow Looks                   |
+    |Write-> Add-> Commit.           |
+    |--------------------------------|
+    |## Works Flow                   |
+    |Init-> Working Directory->      |
+    |git add-> Staging Area->        |
+    |git commit-> Repo->             |
+    |git push-> GitHub.              |
+    |--------------------------------|
+    |## Atomic Commit                |
+    |Way to make sure that each      |
+    |commit is a self-contained      |
+    |unit of work.                   |
+    |--------------------------------|
+    |## How to write command         |
+    |Git and Comopany Recommendation |
+    |Depends {Present Tense,         |
+    |         Imperative}            |
+    |--------------------------------|
+
+-------------------------------------|
+8. Staging Area
+    => git add file_name_1 file_name_2
+    => git add .
+    # Check Status
+--------------------------------|
+9. Commit
+    => git commit -m "commit message"
+--------------------------------|
+10. Logs
+    - This show history of your repo.
+    - All commit history.
+    => git log
+    - Detail Explanation
+    => git log --oneline
+    - One line Explanation
+    => git log docs
+--------------------------------|
+11. Change Default Code Editor
+    => git config --global core.editor "code --wait"
+    
+    - It is just one file for you to write commit command in case you didn't or forget to write full code'
+    - Ex-> git commit
+    Not git commit -m "Command"
+--------------------------------|
+12. Git Ignore
+    => git ignore
+    - Tells Git to ignore files/folders (never track them).
+--------------------------------|
+13. Empty File Not Track
+    => .gitkeep
+    - Tells Git to track an empty folder (Git doesn't track empty folders).
+--------------------------------|
+
+--------------------------------|
+    |--------------------------------|
+    |  B-R-A-N-C-H                   |
+    |--------------------------------|
+--------------------------------|
+14. Git Branch 
+    -> To check current branch.
+--------------------------------|
+15. Git Branch Bug-fix
+    -> It create file name bugfix
+--------------------------------|
+16. Git switch bug-fix
+    -> It switch to other branch 
+--------------------------------|
+17. git log
+    -> Check commits
+--------------------------------|
+18. git switch master
+    -> Swtich to master
+--------------------------------|
+19. git swtich -c dark-mode
+    -> Switch to dark mode branch and also if branch doesn't exist it create for you.
+--------------------------------|
+20. git checkout orange-mode
+    -> ***Important***
+    -> It checkout branch
+--------------------------------|
+
+    |--------------------------------|
+    |  B-R-A-N-C-H  Merging          |
+    |--------------------------------|
+
+--------------------------------|
+21. git merge bug-fix 
+    [Fast Forward Merge]
+    ->  Used to merge branches.
+--------------------------------|
+
+--------------------------------|--------------------------------|
