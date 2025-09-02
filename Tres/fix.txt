@@ -1,0 +1,6 @@
+I am a fix which will be used to fix the bug.
+
+
+Fix another bug.    
+
+One more bug is detected and fixed.
