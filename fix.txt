@@ -23,4 +23,6 @@ Fifth bug fixed.
 
 2024 is coming
 
-Another fix message for pink mode.
+Another fix message for pink mode.                          
+
+Another fix message for purple mode.       
