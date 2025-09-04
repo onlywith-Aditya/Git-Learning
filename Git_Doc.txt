@@ -242,7 +242,7 @@ It allow you to see changes you
     ** You know till this commit id.
 
     $$ Make sure it only happen one, no chance to undo.
---------------------------------|
+------------------------------- -|
 
 42. Check Remote URL Setting
     -> git remote -v
@@ -252,5 +252,8 @@ It allow you to see changes you
     -> git remote add origin <remote-url>
      ** Origin is comman name
      ** Remote-url-> Link for repo.
---------------------------------|--------------------------------|
+--------------------------------|
+44. Push with -u
+    -> git push -u origin master
+--------------------------------|
 --------------------------------|
