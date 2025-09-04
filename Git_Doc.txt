@@ -256,4 +256,46 @@ It allow you to see changes you
 44. Push with -u
     -> git push -u origin master
 --------------------------------|
---------------------------------|
+
+    |--------------------------------|
+    |  readme.md                     |
+    |--------------------------------|
+One file is expected while creating or using
+    repository in github,
+        which is " readme.md ".
+
+--------------------------------|  
+
+    |--------------------------------|
+    |  Open Source Contribution      |
+    |--------------------------------|
+Only contribute valuable things 
+    which might make you valuable coder.
+Process->
+1. Go to open-source.
+2. Click on Fork.
+3. Give name to it.
+    ** Other see forekd from also.
+    *** Don't become oversmart.
+4. Clone it.
+5. Copy Clone url.
+6. Open terminal.
+7. -> git clone <clone-url>
+8. Whole repository will be clone.
+--------| 
+Then add things in clone repo, contribute to it.
+Again Process->
+1. git add
+2. git commit
+3. git push'
+4. Go to GitHub
+5. Contribute Button Push
+6. Open pull request
+7. Add nice details.
+8. Create pull request.
+--------------------------------|  
+
+** End Till Now**
+*THANK YOU*
+
+--------------------------------| 
