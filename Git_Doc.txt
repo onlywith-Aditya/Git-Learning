@@ -123,4 +123,134 @@
 --------------------------------|
 22. Rename Branch 
     -> git branch -m <old-name> <new-name>
+--------------------------------|
+--------------------------------|
+
+    |--------------------------------|
+    |  Git Diff                      |
+    |--------------------------------|
+
+--------------------------------|
+23. Git Diff
+    -> git diff
+    - It is imformative command, which show difference between two commit.
+    - It doesn't work solo, we need parameters.
+--------------------------------|
+24. Git Diff parameters
+    **Comparing Staging Area with Repo
+    -> git diff --staged 
+    ** Output-
+    - a-> File A and b-> file b
+    - ---- indicates the file a
+    - ++++ indicates the file b
+    - @@ indicates the line number
+--------------------------------|
+25. Git Diff-> Comparing between branches
+    -> git diff <branch-one> <branch-two>
+    -> git diff <branch-one>.. <branch-two>
+--------------------------------|
+
+    |--------------------------------|
+    |  Git Stash                     |
+    |--------------------------------|
+
+--------------------------------|
+26. Git Stash
+    ** It is a way to save your changes in a temporary location.
+    We made change in one branch and want to see something from another so we can't go to another branch without commit, so sta gti stsh camne in role.
+--------------------------------|
+27. Nameng Stash
+    -> git stash save "Comment"   
+--------------------------------|
+28. Stash List
+    -> git stash list
+--------------------------------|
+29. Apply Stash Apply at Top
+    -> git stash apply
+--------------------------------|
+30. Apply Stash Apply at Particular number
+    -> git stash apply stash@{0}
+--------------------------------|
+31. Drop the stash
+    -> git stash drop
+--------------------------------|
+32. Clearing the stash
+    -> git stash clear 
+--------------------------------|
+
+    |--------------------------------|
+    |  Git Tag                       |
+    |--------------------------------|
+
+It is like a sticky note.
+We don't have to use tag with all things or operation,
+    only in important case like->   
+        Release Version
+--------------------------------|
+33. Creating a Tag
+    -> git tag <tag-name>
+--------------------------------|
+34. Creating Annotated Tag
+    -> git tag -a <tag-name> -m "Comment"
+--------------------------------|
+35. List of all tag.
+    -> git tag
+--------------------------------|
+36. Commit Specific Tag 
+    -> git tag <tag-name> <commit-message>
+--------------------------------|
+37. Push to remote Repo
+    -> git push origin <tag-name>
+--------------------------------|
+38. Delete a tag
+    -> git tag -d <tag-name>
+--------------------------------|
+
+    |--------------------------------|
+    |  Rebase                        |
+    |--------------------------------|
+It is powerful tool which used 
+        to change base of a branch.
+
+It allow you to move a branch to a 
+    new starting point, usually a different commint, 
+        by replaying the commit from the original base 
+            onto the new base.
+--------------------------------|
+
+    |--------------------------------|
+    |  Git Reflog                    |
+    |--------------------------------|
+This is command which show you 
+    history of your commit.
+
+It allow you to see changes you 
+     have maden to your repo over time.
+--------------------------------|    
+39. Git Reflog
+    -> git reflog
+--------------------------------|    
+40. Git Specific Reflog
+    -> git reflog <commit-hash>
+--------------------------------|
+41. Recover lost commit or changes
+    -> git reflog <commit-hash> 
+    ** Just to check where to go.
+    -> git reset --hard Head@{1}
+    ** You know Exject way backward.
+    -> git reset --hard <commit-hash>
+    ** You know till this commit id.
+
+    $$ Make sure it only happen one, no chance to undo.
+--------------------------------|
+
+42. Check Remote URL Setting
+    -> git remote -v
+    **Used to take code from github.
+--------------------------------|
+43. Add Remote Repo
+    -> git remote add origin <remote-url>
+     ** Origin is comman name
+     ** Remote-url-> Link for repo.
 --------------------------------|--------------------------------|
+--------------------------------|
